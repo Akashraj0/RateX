@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import axios from "axios";
-import './Exhistory.css'
-import { Line } from "react-chartjs-2";
+import './Exhistory.css';
 import { Chart } from "chart.js/auto";
 
 const Exhistory = () => {
@@ -11,7 +10,7 @@ const Exhistory = () => {
   let a, b;
   useEffect(() => {
     fetchData(a,b);
-  }, []);
+  }, [a,b]);
   const handle = (e) => {
     e.preventDefault();
     if (ref1.current.value !== "" && ref2.current.value !== "") {
@@ -48,10 +47,6 @@ useEffect(() => {
   if (chartRef.current) {
     chartRef.current.destroy();
   }
-  const options = {
-    responsive: true,
-    maintainAspectRatio: false,
-  };
   // Create the new Chart instance
   if (data.length > 0) {
     chartRef.current = new Chart(document.getElementById("exhistory-chart"), {

@@ -15,7 +15,7 @@ const Table = ({ API, title }) => {
                 console.error('Error fetching data:', error);
                 setLoading(false);
             });
-    }, []);
+    }, [API]);
     const array = ['USD','CAD','EUR', 'INR', 'JPY', 'CHF','AUD'];
     if (loading) {
         return <p>Loading...</p>

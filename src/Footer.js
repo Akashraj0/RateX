@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='Footer'>
         <div className='Footer--img'>
-            <img src={require('./Favlogo.png')} alt="footer-image"/>
+            <img src={require('./Favlogo.png')} alt="footerimg"/>
         </div>
         <div className='Footer-hyper'>
             <p>Home</p>
