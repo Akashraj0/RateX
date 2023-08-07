@@ -1,0 +1,45 @@
+.Footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:1rem;
+    height: 100px;
+    margin: auto;
+    background-color: red;
+}
+.Footer--img{
+    position: relative;
+    left: 0px;
+    margin: auto 1rem;
+    width: 30%;
+}
+.Footer--img > img {
+    width: 30%;
+}
+.Footer-hyper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+}
+.Footer-hyper > p{
+    right: 0;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 500px) {
+    .Footer-hyper > p{
+        right: 0;
+        position: relative;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .Footer--img{
+        position: relative;
+        left: 0px;
+        margin: auto 1rem;
+        width: 20%;
+    }
+    .Footer--img > img {
+        width: 80%;
+    }
+}

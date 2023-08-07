@@ -1,0 +1,9 @@
+.Help{
+    background-image:url('./background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+.Hero-container > p{
+  padding-bottom: 16rem;
+}

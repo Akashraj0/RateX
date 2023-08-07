@@ -1,0 +1,53 @@
+.table > h1{
+  margin-top: 8rem;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem auto;
+    overflow-x: auto;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    color: blue;
+    width: 100px;
+    height: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+@media only screen and (max-width: 850px) {
+    td{
+        color: blue;
+        width: 80px;
+        height: 8px;
+        border: 1px solid black;
+        text-align: center;
+    }
+    .table-container {
+        margin: 5rem auto;
+    }
+    .table > h1{
+        font-size: 20px;
+      }
+}
+@media only screen and (max-width: 650px) {
+    td{
+        color: blue;
+        width: 64px;
+        height: 5px;
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 500px) {
+    td{
+        color: blue;
+        width: 40px;
+        height: 3px;
+        border: 1px solid black;
+        text-align: center;
+    }
+}
