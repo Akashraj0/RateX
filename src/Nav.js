@@ -10,7 +10,7 @@ const Nav = () => {
   }
   return (
     <div className='Navbar'>
-      <div style={{ width: "10%" }} className='Navbar--Logo'>
+      <div style={{ width: "10",marginLeft:'10px'}} className='Navbar--Logo'>
         <img src={require("./Favlogo.png")} alt='logo' style={{ width: "50%", borderRadius: "50%" }} />
         <h5>XRates</h5>
       </div>

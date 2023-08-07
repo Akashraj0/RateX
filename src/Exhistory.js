@@ -87,10 +87,10 @@ return (
     </div>
     <div className="HistoryData--Form">
       <form onSubmit={handle} style={{width:"100%"}}>
-        <label>FROM:</label>
-        <input type='date' ref={ref1} />
-        <label>TO:</label>
-        <input type='date' ref={ref2} />
+        <label>FROM:</label><br/>
+        <input type='date' ref={ref1} /><br/>
+        <label>TO:</label><br/>
+        <input type='date' ref={ref2} /><br/>
         <button>Submit</button>
       </form>
     </div>

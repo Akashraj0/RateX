@@ -1,20 +1,27 @@
 .table > h1{
   margin-top: 8rem;
 }
+.table{
+   width: 80%;
+   margin: auto;
+}
 .table-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10rem auto;
     overflow-x: auto;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    margin: 10rem auto;
 }
 table{
+    margin: auto;
     border-collapse: collapse;
 }
 td{
     color: blue;
-    width: 100px;
-    height: 10px;
+    /* padding: 0.5rem; */
+    min-width: 100px;
+    min-height: 10px;
     border: 1px solid black;
     text-align: center;
 }

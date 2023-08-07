@@ -23,15 +23,15 @@
 .Footer-hyper > p{
     right: 0;
     position: relative;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
 }
 @media only screen and (max-width: 500px) {
     .Footer-hyper > p{
         right: 0;
         position: relative;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: -7px;
+        margin-right: 13px;
     }
     .Footer--img{
         position: relative;
