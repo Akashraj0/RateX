@@ -20,7 +20,7 @@ const Calculator = () => {
     }
     useEffect(()=>{
         FetchData()
-    },[])
+    })
     function Converter(){
           var input=ref3.current.value;
           if(ref1.current.value !== ref2.current.value)
