@@ -25,6 +25,13 @@
      }
      .historychart{
           width: 100%;
-          height: 70%;
+          height: 100%;
+     }
+     label{
+          font-size: 15px;
+     }
+     .HistoryData--Canvas{
+          width: 70%;
+          margin:5rem auto;
      }
 }
