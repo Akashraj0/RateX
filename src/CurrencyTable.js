@@ -1,13 +1,13 @@
 import Table from "./Table";
 import './Table.css'
 const CurrencyTable = () => {
-  const api1 = `https://v6.exchangerate-api.com/v6/15dcce9f6368946e3d3ac5eb/latest/USD`;
-  const api2 = `https://v6.exchangerate-api.com/v6/15dcce9f6368946e3d3ac5eb/latest/CAD`;
-  const api3 = `https://v6.exchangerate-api.com/v6/15dcce9f6368946e3d3ac5eb/latest/EUR`;
-  const api4 = `https://v6.exchangerate-api.com/v6/15dcce9f6368946e3d3ac5eb/latest/INR`;
-  const api5 = `https://v6.exchangerate-api.com/v6/15dcce9f6368946e3d3ac5eb/latest/JPY`;
-  const api6 = `https://v6.exchangerate-api.com/v6/15dcce9f6368946e3d3ac5eb/latest/CHF`;
-  const api7 = `https://v6.exchangerate-api.com/v6/15dcce9f6368946e3d3ac5eb/latest/AUD`;
+  const api1 = `https://v6.exchangerate-api.com/v6/ef348a2503423654211c871a/latest/USD`;
+  const api2 = `https://v6.exchangerate-api.com/v6/ef348a2503423654211c871a/latest/CAD`;
+  const api3 = `https://v6.exchangerate-api.com/v6/ef348a2503423654211c871a/latest/EUR`;
+  const api4 = `https://v6.exchangerate-api.com/v6/ef348a2503423654211c871a/latest/INR`;
+  const api5 = `https://v6.exchangerate-api.com/v6/ef348a2503423654211c871a/latest/JPY`;
+  const api6 = `https://v6.exchangerate-api.com/v6/ef348a2503423654211c871a/latest/CHF`;
+  const api7 = `https://v6.exchangerate-api.com/v6/ef348a2503423654211c871a/latest/AUD`;
   const head1 = 'USD';
   const head2 = 'CAD';
   const head3 = 'EUR';
